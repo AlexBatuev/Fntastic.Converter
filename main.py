@@ -31,7 +31,5 @@ def convert_string(incoming_string: str) -> str:
 
 
 if __name__ == '__main__':
-    # in = input('Введите строку')
-    ins = ['din', 'recede', 'Success', '(( @']
-    for i in ins:
-        print(i + ' => ' + convert_string(i))
+    input_string = input('Пожалуйста, введите строку для конвертации:\n')
+    print(convert_string(input_string))
